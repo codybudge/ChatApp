@@ -11,3 +11,4 @@ class SendMessageForm extends React.Component {
     )
   }
 }
+export default SendMessageForm
