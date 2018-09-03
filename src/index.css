@@ -32,4 +32,32 @@ html, body {
 .new-room-form {
   grid-area: n;
 }
+.room-list {
+  grid-area: r;
+}
+.message-list {
+  grid-area: m;
+}
+.send-message-form {
+  grid-area: f;
+}
+
+/*Rest of CSS */
+
+.room-list {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: var(--main-color);
+  overflow: scroll;
+  height: 100%;
+}
+.room-list > ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: scroll;
+}
+
+
+
+
 
