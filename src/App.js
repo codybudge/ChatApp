@@ -65,7 +65,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <RoomList />
+                <RoomList rooms={[...this.state.joinableRooms, ...this.state.joinableRooms]}/>
                 <MessageList messages={this.state.messages} />
                 <SendMessageForm sendMessage={this.sendMessage} />
                 <NewRoomForm />
